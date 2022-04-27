@@ -2,7 +2,7 @@ import EpisodeInfo from "./EpisodeInfo"
 function Home({ episodes }) {
   console.log(episodes)
   return (
-    <div className="home">
+    <div className="Home">
       <h2>FRIENDS TV show</h2>
       <ul>
           {episodes?.map((episode) => (
