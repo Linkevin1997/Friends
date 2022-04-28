@@ -11,11 +11,11 @@ function App() {
       .then((data) => setEpisodes(data.slice(0, 10)));
   }, []);
   return (
-    <>
+    <div class="layout">
       <Routes>
         <Route path="/" element={<Home episodes={episodes} />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
