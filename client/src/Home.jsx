@@ -3,7 +3,7 @@ function Home({ episodes }) {
   console.log(episodes)
   return (
     <div className="Home">
-      <h2>FRIENDS TV show</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Friends_logo.svg"></img>
       <ul>
           {episodes?.map((episode) => (
             <li key={episode._id}><EpisodeInfo episode={episode} /></li>
